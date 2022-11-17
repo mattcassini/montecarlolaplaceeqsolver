@@ -1,3 +1,6 @@
+%Monte Carlo PDE Solver
+%Math450H
+
 clear;clc;close all;
 m = 2^6; %number of trials for each point
 n = 2^6; %size of grid

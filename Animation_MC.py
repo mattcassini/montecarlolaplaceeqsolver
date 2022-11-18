@@ -5,12 +5,14 @@ import tkinter
 
 position_matrix=[[0,0,0,0,0,0],[0,1,1,1,1,0],[0,1,1,1,1,0],[0,1,1,1,1,0],[0,1,1,1,1,0],[0,0,0,0,0,0]]
 
-#Make 4x4 grid
+#Make 6x6 grid
 MC=turtle.Turtle()
+MC.speed(speed=0.8)
 MC.hideturtle()
 marker=turtle.Turtle()
 marker.hideturtle()
 marker.penup()
+marker.speed(speed=0)
 marker.goto(-200,200)
 marker.pendown()
 marker.right(90)

@@ -2,8 +2,9 @@
 %M450H
 
 clear;clc;close all;
-m = 2^6; %number of trials for each point
+m = 2^8; %number of trials for each point
 n = 2^8; %size of grid
+h = 1/n;
 k = (n-2)^2; %interior pts
 s = RandStream("dsfmt19937"); %seed for random number gen
 %x = linspace(0,1,n);
@@ -11,10 +12,10 @@ s = RandStream("dsfmt19937"); %seed for random number gen
 
 g = zeros(n,n);
 %input BCs
-g(1,:) = 1; %top
-g(n,:) = 1; %bottom
+g(1,:) = 0; %top
+g(n,:) = 0; %bottom
 g(:,1) = 0; %left
-g(:,n) = 0; %right
+g(:,n) = 12; %right
 u = g;
 
 pos1 = repmat((2:n-1)',1,n-2,m);
@@ -48,6 +49,14 @@ end
 R_avg = reward/m;
 u(2:n-1,2:n-1) = R_avg(2:n-1,2:n-1);
 mesh(u)
+
+%equipotent lines
+eps = 10^-1;
+ii = 2:n-1;
+jj = ii;
+ux = (u(ii+1,jj) - u(ii,jj)) / h;
+uy = (u(ii,jj+1) - u(ii,jj)) / h;
+equipotent_lines = u(ii,jj).*(ux<=eps & ux>=-eps & uy<=eps & uy>=-eps);
 
 load gong
 sound(y,Fs)

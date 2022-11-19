@@ -9,6 +9,7 @@ position_matrix=[[0,0,0,0,0,0],[0,1,1,1,1,0],[0,1,1,1,1,0],[0,1,1,1,1,0],[0,1,1,
 MC=turtle.Turtle()
 MC.speed(speed=0.8)
 MC.hideturtle()
+turtle.screensize(2000,2000)
 marker=turtle.Turtle()
 marker.hideturtle()
 marker.penup()

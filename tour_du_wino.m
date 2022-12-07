@@ -2,7 +2,7 @@
 %M450H
 
 clear;clc;close all;
-m = 2^8; %number of trials for each point
+m = 2^9; %number of trials for each point
 n = 2^8; %size of grid
 h = 1/n;
 k = (n-2)^2; %interior pts

@@ -2,8 +2,8 @@
 %M450H
 
 clear;clc;close all;
-m = 2^9; %number of trials for each point
-n = 2^8; %size of grid
+m = 1000; %number of trials for each point
+n = 8; %size of grid
 h = 1/n;
 k = (n-2)^2; %interior pts
 s = RandStream("dsfmt19937"); %seed for random number gen

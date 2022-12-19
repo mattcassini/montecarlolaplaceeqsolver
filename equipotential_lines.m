@@ -1,9 +1,9 @@
 %Analytical Solution of Laplaces Eq
 %& Generation of Equipotential lines
 
-clear;close all;
-x=linspace(0,7,10^3);
-y=linspace(0,9,10^3);
+function usol = equipotential_lines(n)
+x=linspace(0,7,n);
+y=linspace(0,9,n);
 [x,y]=meshgrid(x,y);
 
 u = @(x,y,i) (48./sinh(9*pi*i/7)).*sin(x*pi*i/7).*sinh(y*pi*i/7)/(i*pi);
@@ -15,6 +15,8 @@ for i=1:2:180
     usol= usol + un;
 end
  
- contour(usol);
- figure()
- mesh(usol)
+%  contour(usol);
+%  figure()
+%  mesh(usol)
+
+end

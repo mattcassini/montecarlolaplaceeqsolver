@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.22)  16 DEC 2022 23:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.22)  19 DEC 2022 14:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -186,9 +186,28 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 \@float@every@algorithm=\toks30
 \c@algorithm=\count277
 )
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count278
+\c@ALG@rem=\count279
+\c@ALG@nested=\count280
+\ALG@tlm=\skip61
+\ALG@thistlm=\skip62
+\c@ALG@Lnr=\count281
+\c@ALG@blocknr=\count282
+\c@ALG@storecount=\count283
+\c@ALG@tmpcounter=\count284
+\ALG@tmplength=\skip63
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count278
+\l__color_backend_stack_int=\count285
 \l__pdf_internal_box=\box56
 )
 (./final_report.aux)
@@ -218,16 +237,16 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count279
+\scratchcounter=\count286
 \scratchdimen=\dimen162
 \scratchbox=\box57
-\nofMPsegments=\count280
-\nofMParguments=\count281
+\nofMPsegments=\count287
+\nofMParguments=\count288
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count282
+\MPscratchCnt=\count289
 \MPscratchDim=\dimen163
-\MPnumerator=\count283
-\makeMPintoPDFobject=\count284
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
 \everyMPtoPDFconversion=\toks32
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -242,8 +261,8 @@ Configuring pdfsync
 \PDFSYNC@ut=\write3
 \openout3 = `final_report.pdfsync'.
 
-\PDFSYNCf@li@=\count285
-\PDFSYNC@rder=\count286
+\PDFSYNCf@li@=\count292
+\PDFSYNC@rder=\count293
 **** pdfsync.sty: Synchronizing at \everypar
 \PDFSYNCeveryp@r=\toks33
 **** pdfsync.sty: Synchronizing at \everymath
@@ -253,42 +272,47 @@ Configuring pdfsync
 **** pdfsync.sty: Synchronizing at \everyvbox
 \PDFSYNCeveryvb@x=\toks36
 **** pdfsync.sty: started
-<../Figures//solution_Dec11_9hrs_isoview.pdf, id=1, 614.295pt x 794.97pt>
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<../Figures//solution_Dec11_9hrs_isoview.pdf, id=16, 614.295pt x 794.97pt>
 File: ../Figures//solution_Dec11_9hrs_isoview.pdf Graphic file (type pdf)
 <use ../Figures//solution_Dec11_9hrs_isoview.pdf>
 Package pdftex.def Info: ../Figures//solution_Dec11_9hrs_isoview.pdf  used on i
-nput line 44.
+nput line 85.
 (pdftex.def)             Requested size: 172.79846pt x 223.62115pt.
-<../Figures//solution_Dec11_9hrs_sideview.pdf, id=2, 614.295pt x 794.97pt>
+<../Figures//solution_Dec11_9hrs_sideview.pdf, id=17, 614.295pt x 794.97pt>
 File: ../Figures//solution_Dec11_9hrs_sideview.pdf Graphic file (type pdf)
 <use ../Figures//solution_Dec11_9hrs_sideview.pdf>
 Package pdftex.def Info: ../Figures//solution_Dec11_9hrs_sideview.pdf  used on 
-input line 45.
+input line 86.
 (pdftex.def)             Requested size: 172.79846pt x 223.62115pt.
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../Figures//solution_Dec
-11_9hrs_isoview.pdf> <../Figures//solution_Dec11_9hrs_sideview.pdf>] [2]
-(./final_report.aux) ) 
+ (./final_report.bbl)
+[2 <../Figures//solution_Dec11_9hrs_isoview.pdf> <../Figures//solution_Dec11_9h
+rs_sideview.pdf>] [3] (./final_report.aux) ) 
 Here is how much of TeX's memory you used:
- 3853 strings out of 478287
- 58137 string characters out of 5849289
- 347843 words of memory out of 5000000
- 21860 multiletter control sequences out of 15000+600000
- 474743 words of font info for 49 fonts, out of 8000000 for 9000
+ 4353 strings out of 478287
+ 66112 string characters out of 5849289
+ 359601 words of memory out of 5000000
+ 22351 multiletter control sequences out of 15000+600000
+ 475488 words of font info for 53 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 69i,18n,76p,249b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on final_report.pdf (2 pages, 360914 bytes).
+ 69i,18n,76p,461b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on final_report.pdf (3 pages, 405997 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 88 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

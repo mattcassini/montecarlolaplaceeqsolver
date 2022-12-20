@@ -68,9 +68,33 @@ The centered finite difference approximations for the second partial derivatives
 
 It is now clear the above formulation can be expressed as $h^2 u_{xx} + h^2 u_{yy} = 0$ and dividing away $h^2$ leaves us $u_{xx} + u_{yy} = 0$ which is then Laplace's Eq.
 
-We parallelized the algorithm and have the following
+Our initial algorithm was
 \begin{algorithm}
-	\caption{Tour Du Wino}
+	\caption{Original Tour Du Wino}
+	\begin{algorithmic}[1]
+		\State Initialize $pos1$ and $pos2$ as the first interior coordinate pair
+		\State Generate random number $r = \thicksim U(0,1)$
+		\If{$r \leq 0.25$}
+			\State $pos1 \gets pos1 + 1$
+		\ElsIf{$r \leq 0.5$}
+			\State $pos1 \gets pos1 - 1$
+		\ElsIf{$r \leq 0.75$}
+			\State $pos2 \gets pos2 + 1$
+		\Else
+			\State $pos2 \gets pos2 - 1$
+		\EndIf
+		\If{$pos1$ or $pos2 == 1$ or $n$}
+			\State Save and continue to next starting point
+		\Else
+			\State Repeat
+		\EndIf
+		\State Repeat for all starting points
+	\end{algorithmic}
+\end{algorithm}
+
+This was incredibly slow so we parallelized the algorithm and have the following
+\begin{algorithm}
+	\caption{Improved Tour Du Wino}
 	\begin{algorithmic}[1]
 		\State Initalize $pos1$ and $pos2$ as all the coordinate pairs in $2:n-1$, repeated m  times
 		\State Create 2 $1 \times n^2m$ arrays, $r$, to store coordinates for each walker
@@ -88,10 +112,11 @@ We parallelized the algorithm and have the following
 			\State Remove $pos1_i$ and $pos2_i$ from list
 			\State Decrease length of random number array
 		\EndIf
-		\State Repeat until the length of the array is 0
+		\State Repeat until the array is empty
 	\end{algorithmic}
 \end{algorithm}
 
+This algorithm has improved efficiency as it can take advantage of parallel computing while immediately deleting all "completed" walkers from the arrays so that it doesn't waste time.
 \section{Computational Results}
 
 \subsection{Plots}

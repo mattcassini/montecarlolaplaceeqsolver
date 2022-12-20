@@ -70,9 +70,25 @@ It is now clear the above formulation can be expressed as $h^2 u_{xx} + h^2 u_{y
 
 We parallelized the algorithm and have the following
 \begin{algorithm}
+	\caption{Tour Du Wino}
 	\begin{algorithmic}[1]
-		\caption{Tour Du Wino}
-		\State Generate $1xn^2$ array $\thicksim U(0,1)$
+		\State Initalize $pos1$ and $pos2$ as all the coordinate pairs in $2:n-1$, repeated m  times
+		\State Create 2 $1 \times n^2m$ arrays, $r$, to store coordinates for each walker
+		\State Generate $1 \times n^2m$ array $\thicksim U(0,1)$
+		\If{$\quad r_i \leq 0.25$}
+			\State $pos1_i \gets pos1_i + 1$
+		\ElsIf{$r_i \leq 0.5$}
+			\State $pos1_i \gets pos1_i - 1$
+		\ElsIf{$r_i \leq 0.75$}
+			\State $pos2_i \gets pos2_i + 1$
+		\Else
+			\State $pos2_i \gets pos2_i - 1$
+		\EndIf
+		\If{$pos1_i$ or $pos2_i == (1$ or $n)$}
+			\State Remove $pos1_i$ and $pos2_i$ from list
+			\State Decrease length of random number array
+		\EndIf
+		\State Repeat until the length of the array is 0
 	\end{algorithmic}
 \end{algorithm}
 

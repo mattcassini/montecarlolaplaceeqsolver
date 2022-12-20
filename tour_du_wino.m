@@ -1,12 +1,12 @@
 %Monte Carlo PDE Solver
 %M450H
-
+%clear;clc;close all;
 function u = tour_du_wino(n,m)
-%m = 1000; %number of trials for each point
+%m = 10000; %number of trials for each point
 %n = 8; %size of grid
 h = 1/n;
 k = (n-2)^2; %interior pts
-s = RandStream("dsfmt19937"); %seed for random number gen
+s = RandStream("philox"); %seed for random number gen
 %x = linspace(0,1,n);
 %y = x;
 
@@ -48,7 +48,7 @@ while size(pos1,1) >= 1
 end
 R_avg = reward/m;
 u(2:n-1,2:n-1) = R_avg(2:n-1,2:n-1);
-% mesh(u)
+%mesh(u)
 
 %equipotent lines
 % eps = 10^-1;

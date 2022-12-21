@@ -200,7 +200,9 @@ We tested various different grid sizes and number of trials as seen above. We ha
 For $n = 8$ and $m = 10,000$, the computation time was 0.47 seconds. For the final solution plot above, we used $n = m = 350$ and found the computation time to be 553 minutes or approximately 9.2 hours.
 
 \section{Discussion}
-We have found that the Tour Du Wino is effective in solving Laplace's Equation on a rectangular domain with Dirichlet boundary conditions which allows for a simulation of electric potential from a line charge diffusing through a rectangular domain.
+We have found that the Tour Du Wino is effective in solving Laplace's Equation on a rectangular domain with Dirichlet boundary conditions which allows for a simulation of electric potential from a line charge diffusing through a rectangular domain. An important topic to cover is what occurs at the corners of our solution.Near the corner where the 12 V and 0 V boundary conditions meet, the analytic solution behaves reasonably and smoothly increases from 0 to 12 as y increases.
+The numerical solution instantly jumps to 12 along the boundary while immediately next to the boundary it rises similar to the analytic solution.
+
 
 As far as contribution to the project, Matt Cassini wrote the code to implement the Tour Du Wino algorithm and the error convergence, Moises Ramos derived and plotted the analytical solution and made the random walker animation, and Marissah McNeil wrote the code for the equipotential lines.
 

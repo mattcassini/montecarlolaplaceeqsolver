@@ -39,7 +39,7 @@ We seek to solve Laplace's Equation
 on a rectangular domain $0 \leq x \leq 7, \quad 0 \leq y \leq 9$ with boundary conditions $u(0,y) = u(7,y) = u(x,0) = 0$ and $u(x,9) = 12$
 \section{Background}
 
-In electrostatics the following relationship is known where $E$ represents an electric field, $V$ represents the electric potential,$\rho$ is the charge density and $\epsilon$ represents the permitivity of the material.
+In electrostatics the following relationship is known where $E$ represents an electric field, $V$  the electric potential, $\rho$ the charge density and $\epsilon$ the permitivity of the material.
 
 $$E=-\nabla V$$ it is also notable that the electricfield has the following properties physically $$\nabla E= \frac{\rho}{\epsilon}$$ if we do the following to our orginal equation we see an interesting result $$\nabla E=- \nabla \nabla V$$ 
 which means $$\nabla ^2 V=- \frac{\rho}{\epsilon}$$ 
@@ -125,13 +125,13 @@ This was incredibly slow so we parallelized the algorithm and have the following
 This algorithm has improved efficiency as it can take advantage of parallel computing while immediately deleting all "completed" walkers from the arrays so that it doesn't waste time.
 \section{Analytical Solution}
 
-A lot of times before you run numerical solutions to your problems you should have an idea of what your solution is supposed to look like. To reiterate the problem
+If possible, before using a numerical solution to your problem it is best to have an idea of what your solution is supposed to look like. To reiterate the problem
 
 	$$\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0$$
 
 on a rectangular domain $0 \leq x \leq 7, \quad 0 \leq y \leq 9$ with boundary conditions $u(0,y) = u(7,y) = u(x,0) = 0$ and $u(x,9) = 12$ 
 
-To solve this analytical we computed separation of variables by hand, when the boundary conditions were applied the following analytical solution was found
+To solve this analytically, we used separation of variables by hand. When the boundary conditions were applied, the following analytical solution was found
 \begin{equation}
     u(x,y)= \sum _{n=1}^{\infty} \frac{48}{n \pi \sinh(9 \sqrt{\lambda})} \sin(x \sqrt{\lambda}) \sinh(y \sqrt{\lambda})
 \end{equation}
@@ -142,24 +142,33 @@ Where $\lambda=\frac{n^2 \pi ^2}{7^2}$
 Here the analytical solution is displayed from several angles 
 
 \begin{figure}[H]
-    \includegraphics[scale=0.22]{Asol1.jpg}
-    \includegraphics[scale=0.18]{Asol2.jpg}  
-     \includegraphics[scale=0.2]{Asol3.jpg}  
+    \includegraphics[width=0.6\textwidth]{Asol1.jpg}
+\end{figure}
+\begin{figure}[H]
+    \includegraphics[width=0.6\textwidth]{Asol2.jpg}
+\end{figure}
+\begin{figure}[H]
+    \includegraphics[width=0.6\textwidth]{Asol3.jpg}  
 \end{figure}
 
 
  \subsection{Analytical Solution Equipotential Lines}
 Here we several plots with a different amount of equipotential lines with spatial y as the horizontal axis and spatial x as the vertical axis, which gives an idea of the behavior of the electric potential when it is constant.\\\\
-
-    \caption{5 Equipotential Lines }
-	\label{5 Equipotential Lines }\\
-	\includegraphics[scale=0.2]{EL5}\\
-    \caption{15 Equipotential Lines }\\
-	\label{15 Equipotential Lines }\\
-	\includegraphics[scale=0.65]{EL15}\\ \\ \\ \\
-    \caption{20 Equipotential Lines }\\
-	\label{20 Equipotential Lines }\\
-	\includegraphics[scale=0.24]{EL20}\\
+\begin{figure}[H]
+    \caption{5 Equipotential Lines}
+	\label{5 Equipotential Lines }
+	\includegraphics[width=0.48\textwidth]{EL5}
+\end{figure}
+\begin{figure}[H]
+    \caption{15 Equipotential Lines }
+	\label{15 Equipotential Lines }
+	\includegraphics[width=0.48\textwidth]{EL15}
+\end{figure}
+\begin{figure}[H]
+    \caption{20 Equipotential Lines }
+	\label{20 Equipotential Lines }
+	\includegraphics[width=0.48\textwidth]{EL20}
+\end{figure}
 
 \section{Computational Results}
 

@@ -1,10 +1,10 @@
 %Error Between Monte Carlo Solution and Analytical Solution
 clear;close all;
-m = [8 25 50 75 100 125];
-n = [100 1000];
-for i = 1:length(m)
+n = [8 25 50 75 100 125];
+m = [100 1000];
+for i = 1:length(n)
     u_exact = equipotential_lines(n(i));
-    for j = 1:length(n)
+    for j = 1:length(m)
         u_approx = tour_du_wino(n(i),m(j));
     end
     err = abs(u_exact - u_approx);

@@ -39,7 +39,13 @@ We seek to solve Laplace's Equation
 on a rectangular domain $0 \leq x \leq 7, \quad 0 \leq y \leq 9$ with boundary conditions $u(0,y) = u(7,y) = u(x,0) = 0$ and $u(x,9) = 12$
 \section{Background}
 
-Write about application (electric) and how this equation comes about
+In electrostatics the following relationship is known where $E$ represents an electric field, $V$ represents the electric potential,$\rho$ is the charge density and $\epsilon$ represents the permitivity of the material.
+
+$$E=-\nabla V$$ it is also notable that the electricfield has the following properties physically $$\nabla E= \frac{\rho}{\epsilon}$$ if we do the following to our orginal equation we see an interesting result $$\nabla E=- \nabla \nabla V$$ 
+which means $$\nabla ^2 V=- \frac{\rho}{\epsilon}$$ 
+
+If the charge density is zero or in other words if we are in a charge free region or space we arrive at the problem we are interested in LaPlace's Equation
+$$\nabla ^2 V=0$$
 
 \section{Implementation}
 We programmed a Monte-Carlo simulation using the Tour Du Wino method that utilizes a 2D random walker on a uniform Cartesian grid that records the boundary point on which it lands. It then repeats this process $m$ times starting at this same point. It then averages the value of the boundary condition at each point recorded and assigns this to the value of the solution at the given point.\cite{farlow2012partial}

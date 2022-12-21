@@ -39,12 +39,12 @@ We seek to solve Laplace's Equation
 on a rectangular domain $0 \leq x \leq 7, \quad 0 \leq y \leq 9$ with boundary conditions $u(0,y) = u(7,y) = u(x,0) = 0$ and $u(x,9) = 12$
 \section{Background}
 
-In electrostatics the following relationship is known where $E$ represents an electric field, $V$  the electric potential, $\rho$ the charge density and $\epsilon$ the permitivity of the material.
+In electrostatics the following relationship is known where $E$ represents an electric field, $V$  the electric potential, $\rho$ the charge density and $\epsilon$ the permittivity of the material.
 
-$$E=-\nabla V$$ it is also notable that the electricfield has the following properties physically $$\nabla E= \frac{\rho}{\epsilon}$$ if we do the following to our orginal equation we see an interesting result $$\nabla E=- \nabla \nabla V$$ 
+$$E=-\nabla V$$ it is also notable that the electric field has the following properties physically $$\nabla E= \frac{\rho}{\epsilon}$$ if we do the following to our original equation we see an interesting result $$\nabla E=- \nabla \nabla V$$ 
 which means $$\nabla ^2 V=- \frac{\rho}{\epsilon}$$ 
 
-If the charge density is zero or in other words if we are in a charge free region or space we arrive at the problem we are interested in LaPlace's Equation
+If the charge density is zero or in other words if we are in a charge free region or space we arrive at the problem we are interested in Laplace's Equation
 $$\nabla ^2 V=0$$
 
 \section{Implementation}

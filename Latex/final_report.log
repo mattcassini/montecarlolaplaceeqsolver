@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.22)  21 DEC 2022 10:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.22)  21 DEC 2022 11:31
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -436,114 +436,107 @@ LaTeX Info: Redefining \nameref on input line 6.
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 79.
  [2]
-<../Figures//Asol1.jpg, id=77, 1927.2pt x 966.61125pt>
+<../Figures//Asol1.jpg, id=75, 1927.2pt x 966.61125pt>
 File: ../Figures//Asol1.jpg Graphic file (type jpg)
 <use ../Figures//Asol1.jpg>
-Package pdftex.def Info: ../Figures//Asol1.jpg  used on input line 147.
+Package pdftex.def Info: ../Figures//Asol1.jpg  used on input line 149.
 (pdftex.def)             Requested size: 216.0022pt x 108.33347pt.
-<../Figures//Asol2.jpg, id=78, 1927.2pt x 966.61125pt>
+<../Figures//Asol2.jpg, id=76, 1927.2pt x 966.61125pt>
 File: ../Figures//Asol2.jpg Graphic file (type jpg)
 <use ../Figures//Asol2.jpg>
-Package pdftex.def Info: ../Figures//Asol2.jpg  used on input line 150.
+Package pdftex.def Info: ../Figures//Asol2.jpg  used on input line 152.
 (pdftex.def)             Requested size: 216.0022pt x 108.33347pt.
  [3]
-<../Figures//Asol3.jpg, id=87, 1927.2pt x 966.61125pt>
+<../Figures//Asol3.jpg, id=84, 1927.2pt x 966.61125pt>
 File: ../Figures//Asol3.jpg Graphic file (type jpg)
 <use ../Figures//Asol3.jpg>
-Package pdftex.def Info: ../Figures//Asol3.jpg  used on input line 153.
+Package pdftex.def Info: ../Figures//Asol3.jpg  used on input line 155.
 (pdftex.def)             Requested size: 216.0022pt x 108.33347pt.
-<../Figures//EL5.jpg, id=88, 562.1pt x 421.575pt>
+<../Figures//EL5.jpg, id=85, 562.1pt x 421.575pt>
 File: ../Figures//EL5.jpg Graphic file (type jpg)
 <use ../Figures//EL5.jpg>
-Package pdftex.def Info: ../Figures//EL5.jpg  used on input line 162.
+Package pdftex.def Info: ../Figures//EL5.jpg  used on input line 164.
 (pdftex.def)             Requested size: 172.79846pt x 129.59976pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--163
+Underfull \hbox (badness 10000) in paragraph at lines 160--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--163
+Underfull \hbox (badness 10000) in paragraph at lines 160--165
 
  []
 
-<../Figures//EL15.jpg, id=89, 562.1pt x 421.575pt>
+<../Figures//EL15.jpg, id=86, 562.1pt x 421.575pt>
 File: ../Figures//EL15.jpg Graphic file (type jpg)
 <use ../Figures//EL15.jpg>
-Package pdftex.def Info: ../Figures//EL15.jpg  used on input line 167.
+Package pdftex.def Info: ../Figures//EL15.jpg  used on input line 169.
 (pdftex.def)             Requested size: 172.79846pt x 129.59976pt.
 
 Underfull \vbox (badness 4048) has occurred while \output is active []
 
  [4 <../Figures//Asol1.jpg> <../Figures//Asol2.jpg> <../Figures//Asol3.jpg>]
-<../Figures//EL20.jpg, id=95, 562.1pt x 421.575pt>
+<../Figures//EL20.jpg, id=92, 562.1pt x 421.575pt>
 File: ../Figures//EL20.jpg Graphic file (type jpg)
 <use ../Figures//EL20.jpg>
-Package pdftex.def Info: ../Figures//EL20.jpg  used on input line 172.
+Package pdftex.def Info: ../Figures//EL20.jpg  used on input line 174.
 (pdftex.def)             Requested size: 172.79846pt x 129.59976pt.
-<../Figures//solution_Dec11_9hrs_isoview.pdf, id=96, 614.295pt x 794.97pt>
-File: ../Figures//solution_Dec11_9hrs_isoview.pdf Graphic file (type pdf)
-<use ../Figures//solution_Dec11_9hrs_isoview.pdf>
-Package pdftex.def Info: ../Figures//solution_Dec11_9hrs_isoview.pdf  used on i
-nput line 182.
-(pdftex.def)             Requested size: 172.79846pt x 223.62115pt.
-<../Figures//solution_Dec11_9hrs_sideview.pdf, id=97, 614.295pt x 794.97pt>
-File: ../Figures//solution_Dec11_9hrs_sideview.pdf Graphic file (type pdf)
-<use ../Figures//solution_Dec11_9hrs_sideview.pdf>
-Package pdftex.def Info: ../Figures//solution_Dec11_9hrs_sideview.pdf  used on 
-input line 183.
-(pdftex.def)             Requested size: 172.79846pt x 223.62115pt.
-
-Underfull \vbox (badness 3635) has occurred while \output is active []
-
- [5 <../Figures//EL5.jpg> <../Figures//EL15.jpg> <../Figures//EL20.jpg>]
-<../Figures//solution_n=8_m=100.jpg, id=105, 562.1pt x 421.575pt>
+<../Figures//solution_n=8_m=100.jpg, id=93, 562.1pt x 421.575pt>
 File: ../Figures//solution_n=8_m=100.jpg Graphic file (type jpg)
 <use ../Figures//solution_n=8_m=100.jpg>
 Package pdftex.def Info: ../Figures//solution_n=8_m=100.jpg  used on input line
- 192.
+ 187.
 (pdftex.def)             Requested size: 172.79846pt x 129.59976pt.
-<../Figures//solution_n=8_m=1000.jpg, id=106, 562.1pt x 421.575pt>
+<../Figures//solution_n=8_m=1000.jpg, id=94, 562.1pt x 421.575pt>
 File: ../Figures//solution_n=8_m=1000.jpg Graphic file (type jpg)
 <use ../Figures//solution_n=8_m=1000.jpg>
 Package pdftex.def Info: ../Figures//solution_n=8_m=1000.jpg  used on input lin
-e 193.
+e 188.
 (pdftex.def)             Requested size: 172.79846pt x 129.59976pt.
-<../Figures//solution_n=8_m=10000.jpg, id=107, 562.1pt x 421.575pt>
+<../Figures//solution_n=8_m=10000.jpg, id=95, 562.1pt x 421.575pt>
 File: ../Figures//solution_n=8_m=10000.jpg Graphic file (type jpg)
 <use ../Figures//solution_n=8_m=10000.jpg>
 Package pdftex.def Info: ../Figures//solution_n=8_m=10000.jpg  used on input li
-ne 194.
+ne 189.
 (pdftex.def)             Requested size: 172.79846pt x 129.59976pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6 <../Figures//solution_Dec11_9hrs_isoview.pdf> <../Figures//solution_Dec11_9
-hrs_sideview.pdf>]
-<../Figures//error_plot_m=100.jpg, id=128, 562.1pt x 421.575pt>
+ [5 <../Figures//EL5.jpg> <../Figures//EL15.jpg> <../Figures//EL20.jpg>]
+<../Figures//solution_Dec11_9hrs_isoview.pdf, id=105, 614.295pt x 794.97pt>
+File: ../Figures//solution_Dec11_9hrs_isoview.pdf Graphic file (type pdf)
+<use ../Figures//solution_Dec11_9hrs_isoview.pdf>
+Package pdftex.def Info: ../Figures//solution_Dec11_9hrs_isoview.pdf  used on i
+nput line 197.
+(pdftex.def)             Requested size: 172.79846pt x 223.62115pt.
+<../Figures//solution_Dec11_9hrs_sideview.pdf, id=106, 614.295pt x 794.97pt>
+File: ../Figures//solution_Dec11_9hrs_sideview.pdf Graphic file (type pdf)
+<use ../Figures//solution_Dec11_9hrs_sideview.pdf>
+Package pdftex.def Info: ../Figures//solution_Dec11_9hrs_sideview.pdf  used on 
+input line 198.
+(pdftex.def)             Requested size: 172.79846pt x 223.62115pt.
+<../Figures//error_plot_m=100.jpg, id=108, 562.1pt x 421.575pt>
 File: ../Figures//error_plot_m=100.jpg Graphic file (type jpg)
 <use ../Figures//error_plot_m=100.jpg>
 Package pdftex.def Info: ../Figures//error_plot_m=100.jpg  used on input line 2
-04.
+06.
 (pdftex.def)             Requested size: 172.79846pt x 129.59976pt.
-<../Figures//error_plot_m=1000.jpg, id=129, 572.1375pt x 414.54875pt>
+<../Figures//error_plot_m=1000.jpg, id=109, 572.1375pt x 414.54875pt>
 File: ../Figures//error_plot_m=1000.jpg Graphic file (type jpg)
 <use ../Figures//error_plot_m=1000.jpg>
 Package pdftex.def Info: ../Figures//error_plot_m=1000.jpg  used on input line 
-205.
+207.
 (pdftex.def)             Requested size: 176.40198pt x 127.81297pt.
- [7 <../Figures//solution_n=8_m=100.jpg> <../Figures//solution_n=8_m=1000.jpg> 
-<../Figures//solution_n=8_m=10000.jpg> <../Figures//error_plot_m=100.jpg> <../F
-igures//error_plot_m=1000.jpg>] (./final_report.bbl) [8]
-(./final_report.aux)
+ [6 <../Figures//solution_n=8_m=100.jpg> <../Figures//solution_n=8_m=1000.jpg> 
+<../Figures//solution_n=8_m=10000.jpg> <../Figures//solution_Dec11_9hrs_isoview
+.pdf> <../Figures//solution_Dec11_9hrs_sideview.pdf>] (./final_report.bbl) [7 <
+../Figures//error_plot_m=100.jpg> <../Figures//error_plot_m=1000.jpg>] [8] (./f
+inal_report.aux)
 Package rerunfilecheck Info: File `final_report.out' has not changed.
-(rerunfilecheck)             Checksum: 70DEFEA0AEDF9A4B7F27FEEAB356A901;1960.
+(rerunfilecheck)             Checksum: 4E0FD0A2F517F89A028A0797423B4B0B;1855.
  ) 
 Here is how much of TeX's memory you used:
  11317 strings out of 478287
- 176436 string characters out of 5849289
- 473347 words of memory out of 5000000
- 29161 multiletter control sequences out of 15000+600000
+ 176430 string characters out of 5849289
+ 473425 words of memory out of 5000000
+ 29162 multiletter control sequences out of 15000+600000
  475488 words of font info for 53 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  69i,19n,76p,519b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -560,10 +553,10 @@ cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on final_report.pdf (8 pages, 1312178 bytes).
+Output written on final_report.pdf (8 pages, 1312428 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 154 words of extra memory for PDF output out of 10000 (max. 10000000)
 

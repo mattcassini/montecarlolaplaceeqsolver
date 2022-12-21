@@ -5,7 +5,7 @@
 \graphicspath{ {../Figures/} }
 \begin{document}
 	
-\title{Monte Carlo Solution to Laplace's Eq on a Rectangular Domain}
+\title{Monte Carlo Solution to Laplace's Equation on a Rectangular Domain}
 
 \author{Matt Cassini}
 \address{Department of Mathematical Sciences, New Jersey Institute of Technology, University Heights, Newark, NJ 07102}
@@ -21,7 +21,7 @@
 
 \thanks{Math 450H Final Project}
 \begin{abstract}
-	We use the Tour Du Wino Method, an algorithm based on Monte-Carlo simulation, to approximate a solution to Laplace's Eq on a rectangular domain with Dirichlet boundary conditions
+	We use the Tour Du Wino Method, an algorithm based on Monte-Carlo simulation, to approximate a solution to Laplace's Equation on a rectangular domain with Dirichlet boundary conditions
 \end{abstract}
 
 \date{\today}
@@ -48,8 +48,8 @@ If the charge density is zero or in other words if we are in a charge free regio
 $$\nabla ^2 V=0$$
 
 \section{Implementation}
-We programmed a Monte-Carlo simulation using the Tour Du Wino method that utilizes a 2D random walker on a uniform Cartesian grid that records the boundary point on which it lands. It then repeats this process $m$ times starting at this same point. It then averages the value of the boundary condition at each point recorded and assigns this to the value of the solution at the given point.\cite{farlow2012partial}
-
+We programmed a Monte-Carlo simulation using the Tour Du Wino method that utilizes a 2D random walker on a uniform Cartesian grid that records the boundary point on which it lands. It then repeats this process $m$ times starting at this same point. It then averages the value of the boundary condition at each point recorded and assigns this to the value of the solution at the given point.\cite{farlow2012partial}\\
+\vspace{0.1cm}\\
 The proof of this is very straightforward. The expected value for some point a where R(a) is the value it will take is
 
 $ E[R(a)] = \frac{1}{4} (E[R(b)] + E[R(c)] + E[R(d)] + E[R(e)]  )$
@@ -77,6 +77,7 @@ It is now clear the above formulation can be expressed as $h^2 u_{xx} + h^2 u_{y
 Our initial algorithm was
 \begin{algorithm}
 	\caption{Original Tour Du Wino}
+	\label{oldalgo}
 	\begin{algorithmic}[1]
 		\State Initialize $pos1$ and $pos2$ as the first interior coordinate pair
 		\State Generate random number $r = \thicksim U(0,1)$
@@ -98,9 +99,10 @@ Our initial algorithm was
 	\end{algorithmic}
 \end{algorithm}
 
-This was incredibly slow so we parallelized the algorithm and have the following
+This was incredibly slow so we parallelized the algorithm and have Algorithm \ref{newalgo}
 \begin{algorithm}
 	\caption{Improved Tour Du Wino}
+	\label{newalgo}
 	\begin{algorithmic}[1]
 		\State Initalize $pos1$ and $pos2$ as all the coordinate pairs in $2:n-1$, repeated m  times
 		\State Create 2 $1 \times n^2m$ arrays, $r$, to store coordinates for each walker
@@ -174,14 +176,7 @@ Here we several plots with a different amount of equipotential lines with spatia
 
 \section{Computational Results}
 
-\subsection{Plots}
-
-\begin{figure}[H]
-	\caption{Numerical solution with a grid size of 350x350 and 350 realizations}
-	\label{finalsolution}
-	\includegraphics[width=0.48\textwidth]{solution_Dec11_9hrs_isoview.pdf}
-	\includegraphics[width=0.48\textwidth]{solution_Dec11_9hrs_sideview.pdf}
-\end{figure}
+%\subsection{Plot of Numerical Solution}
 
 \subsection{Convergence Towards Analytical Solution}
 
@@ -196,6 +191,13 @@ For a small grid size $n$, the solution has significant error regardless of numb
 
 Clearly, a larger grid size is necessary to see results. By setting $n=m=350$, we obtain Figure \ref{finalsolution} above which looks very similar to \ref{analsol}.
 
+\begin{figure}[h]
+	\caption{Numerical solution with a grid size of 350x350 and 350 realizations}
+	\label{finalsolution}
+	\includegraphics[width=0.48\textwidth]{solution_Dec11_9hrs_isoview.pdf}
+	\includegraphics[width=0.48\textwidth]{solution_Dec11_9hrs_sideview.pdf}
+\end{figure}
+
 We can see in Figure \ref{gridsizeconv} that the error decreases at a superlinear rate as the grid size is increased.
 
 \begin{figure}[H]
@@ -203,8 +205,9 @@ We can see in Figure \ref{gridsizeconv} that the error decreases at a superlinea
 	\label{gridsizeconv}
 	\includegraphics[width=0.48\textwidth]{error_plot_m=100.jpg}
 	\includegraphics[width=0.49\textwidth]{error_plot_m=1000.jpg}
-\end{figure} 
+\end{figure}
 
+As the grid size increases, the error decreases. Despite the large number of trials having a slower convergence, they both still converge towards the analytical solution.
 \subsection{Computation Time}
 
 We tested various different grid sizes and number of trials as seen above. We have found the computation time to be $O(n^4m^2)$ where n is the size of the grid and m is the number of trials.

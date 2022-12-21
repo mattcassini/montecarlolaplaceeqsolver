@@ -1,6 +1,6 @@
 %Error Between Monte Carlo Solution and Analytical Solution
 clear;close all;
-n = [8 25 50 75 100 125 150];
+n = [175 200];
 m = [100 1000];
 for i = 1:length(n)
     u_exact = equipotential_lines(n(i))';

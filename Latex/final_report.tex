@@ -117,6 +117,19 @@ This was incredibly slow so we parallelized the algorithm and have the following
 \end{algorithm}
 
 This algorithm has improved efficiency as it can take advantage of parallel computing while immediately deleting all "completed" walkers from the arrays so that it doesn't waste time.
+\section{Analytical Solution}
+
+A lot of times before you run numerical solutions to your problems you should have an idea of what your solution is supposed to look like. To reiterate the problem
+
+	$$\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0$$
+
+on a rectangular domain $0 \leq x \leq 7, \quad 0 \leq y \leq 9$ with boundary conditions $u(0,y) = u(7,y) = u(x,0) = 0$ and $u(x,9) = 12$ 
+
+To solve this analytical we computed separation of variables by hand, when the boundary conditions were applied the following analytical solution was found
+\begin{equation}
+    u(x,y)= \sum _{n=1}^{\infty} \frac{48}{n \pi \sinh(9 \sqrt{\lambda})} \sin(x \sqrt{\lambda}) \sinh(y \sqrt{\lambda})
+\end{equation}
+Where $\lambda=\frac{n^2 \pi ^2}{7^2}$
 \section{Computational Results}
 
 \subsection{Plots}

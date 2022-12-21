@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.22)  21 DEC 2022 12:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.22)  21 DEC 2022 12:47
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -340,10 +340,142 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip64
 )
+(/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2021/12/24 v2.6 Yet another Pygments shim for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count295
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2021/12/21 4.1b verbatim text (tvz,hv)
+\FV@CodeLineNo=\count296
+\FV@InFile=\read2
+\FV@TabBox=\box56
+\c@FancyVerbLine=\count297
+\FV@StepNumber=\count298
+\FV@OutFile=\write3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count299
+\output=\toks31
+\linenoprevgraf=\count300
+\linenumbersep=\dimen166
+\linenumberwidth=\dimen167
+\c@linenumber=\count301
+\c@pagewiselinenumber=\count302
+\c@LN@truepage=\count303
+\c@internallinenumber=\count304
+\c@internallinenumbers=\count305
+\quotelinenumbersep=\dimen168
+\bframerule=\dimen169
+\bframesep=\dimen170
+\bframebox=\box57
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count306
+\c@FV@TrueTabCounter=\count307
+\FV@TabBox@Group=\box58
+\FV@TmpLength=\skip65
+\c@FV@HighlightLinesStart=\count308
+\c@FV@HighlightLinesStop=\count309
+\FV@LoopCount=\count310
+\FV@NCharsBox=\box59
+\FV@BreakIndent=\dimen171
+\FV@BreakIndentNChars=\count311
+\FV@BreakSymbolSepLeft=\dimen172
+\FV@BreakSymbolSepLeftNChars=\count312
+\FV@BreakSymbolSepRight=\dimen173
+\FV@BreakSymbolSepRightNChars=\count313
+\FV@BreakSymbolIndentLeft=\dimen174
+\FV@BreakSymbolIndentLeftNChars=\count314
+\FV@BreakSymbolIndentRight=\dimen175
+\FV@BreakSymbolIndentRightNChars=\count315
+\c@FancyVerbLineBreakLast=\count316
+\FV@LineBox=\box60
+\FV@LineIndentBox=\box61
+\FV@LineWidth=\dimen176
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+runsystem(uname -s > "final_report.w18")...executed.
+
+
+(./final_report.w18)
+runsystem(rm -- "final_report.w18")...executed.
+
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count317
+\decimalpart=\count318
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip66
+\fb@frw=\dimen177
+\fb@frh=\dimen178
+\FrameRule=\dimen179
+\FrameSep=\dimen180
+)
+\minted@appexistsfile=\read3
+\minted@bgbox=\box62
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count319
+\c@minted@pygmentizecounter=\count320
+\@float@every@listing=\toks32
+\c@listing=\count321
+)
+runsystem(mkdir -p _minted-final_report)...executed.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+runsystem(which pygmentize && touch final_report.aex)...executed.
+
+runsystem(rm final_report.aex)...executed.
+
+
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count295
-\l__pdf_internal_box=\box56
+\l__color_backend_stack_int=\count322
+\l__pdf_internal_box=\box63
 )
 (./final_report.aux)
 \openout1 = `final_report.aux'.
@@ -376,17 +508,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
-\scratchdimen=\dimen166
-\scratchbox=\box57
-\nofMPsegments=\count297
-\nofMParguments=\count298
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count299
-\MPscratchDim=\dimen167
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count323
+\scratchdimen=\dimen181
+\scratchbox=\box64
+\nofMPsegments=\count324
+\nofMParguments=\count325
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count326
+\MPscratchDim=\dimen182
+\MPnumerator=\count327
+\makeMPintoPDFobject=\count328
+\everyMPtoPDFconversion=\toks34
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -397,19 +529,19 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Configuring pdfsync
-\PDFSYNC@ut=\write3
-\openout3 = `final_report.pdfsync'.
+\PDFSYNC@ut=\write5
+\openout5 = `final_report.pdfsync'.
 
-\PDFSYNCf@li@=\count302
-\PDFSYNC@rder=\count303
+\PDFSYNCf@li@=\count329
+\PDFSYNC@rder=\count330
 **** pdfsync.sty: Synchronizing at \everypar
-\PDFSYNCeveryp@r=\toks33
+\PDFSYNCeveryp@r=\toks35
 **** pdfsync.sty: Synchronizing at \everymath
-\PDFSYNCeverym@th=\toks34
+\PDFSYNCeverym@th=\toks36
 **** pdfsync.sty: Synchronizing at \everyhbox
-\PDFSYNCeveryhb@x=\toks35
+\PDFSYNCeveryhb@x=\toks37
 **** pdfsync.sty: Synchronizing at \everyvbox
-\PDFSYNCeveryvb@x=\toks36
+\PDFSYNCeveryvb@x=\toks38
 **** pdfsync.sty: started
 Package hyperref Info: Link coloring OFF on input line 6.
 
@@ -422,15 +554,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count304
+\c@section@level=\count331
 )
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
 LaTeX Info: Redefining \nameref on input line 6.
 
 (./final_report.out) (./final_report.out)
-\@outlinefile=\write4
-\openout4 = `final_report.out'.
+\@outlinefile=\write6
+\openout6 = `final_report.out'.
 
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
@@ -439,38 +571,38 @@ put line 79.
 <../Figures//Asol1.jpg, id=75, 1927.2pt x 966.61125pt>
 File: ../Figures//Asol1.jpg Graphic file (type jpg)
 <use ../Figures//Asol1.jpg>
-Package pdftex.def Info: ../Figures//Asol1.jpg  used on input line 149.
+Package pdftex.def Info: ../Figures//Asol1.jpg  used on input line 152.
 (pdftex.def)             Requested size: 216.0022pt x 108.33347pt.
 <../Figures//Asol2.jpg, id=76, 1927.2pt x 966.61125pt>
 File: ../Figures//Asol2.jpg Graphic file (type jpg)
 <use ../Figures//Asol2.jpg>
-Package pdftex.def Info: ../Figures//Asol2.jpg  used on input line 152.
+Package pdftex.def Info: ../Figures//Asol2.jpg  used on input line 155.
 (pdftex.def)             Requested size: 216.0022pt x 108.33347pt.
  [3]
 <../Figures//Asol3.jpg, id=84, 1927.2pt x 966.61125pt>
 File: ../Figures//Asol3.jpg Graphic file (type jpg)
 <use ../Figures//Asol3.jpg>
-Package pdftex.def Info: ../Figures//Asol3.jpg  used on input line 155.
+Package pdftex.def Info: ../Figures//Asol3.jpg  used on input line 158.
 (pdftex.def)             Requested size: 216.0022pt x 108.33347pt.
 <../Figures//EL5.jpg, id=85, 562.1pt x 421.575pt>
 File: ../Figures//EL5.jpg Graphic file (type jpg)
 <use ../Figures//EL5.jpg>
-Package pdftex.def Info: ../Figures//EL5.jpg  used on input line 164.
+Package pdftex.def Info: ../Figures//EL5.jpg  used on input line 167.
 (pdftex.def)             Requested size: 172.79846pt x 129.59976pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--165
+Underfull \hbox (badness 10000) in paragraph at lines 163--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--165
+Underfull \hbox (badness 10000) in paragraph at lines 163--168
 
  []
 
 <../Figures//EL15.jpg, id=86, 562.1pt x 421.575pt>
 File: ../Figures//EL15.jpg Graphic file (type jpg)
 <use ../Figures//EL15.jpg>
-Package pdftex.def Info: ../Figures//EL15.jpg  used on input line 169.
+Package pdftex.def Info: ../Figures//EL15.jpg  used on input line 172.
 (pdftex.def)             Requested size: 172.79846pt x 129.59976pt.
 
 Underfull \vbox (badness 4048) has occurred while \output is active []
@@ -479,53 +611,53 @@ Underfull \vbox (badness 4048) has occurred while \output is active []
 <../Figures//EL20.jpg, id=92, 562.1pt x 421.575pt>
 File: ../Figures//EL20.jpg Graphic file (type jpg)
 <use ../Figures//EL20.jpg>
-Package pdftex.def Info: ../Figures//EL20.jpg  used on input line 174.
+Package pdftex.def Info: ../Figures//EL20.jpg  used on input line 177.
 (pdftex.def)             Requested size: 172.79846pt x 129.59976pt.
 <../Figures//solution_n=8_m=100.jpg, id=93, 562.1pt x 421.575pt>
 File: ../Figures//solution_n=8_m=100.jpg Graphic file (type jpg)
 <use ../Figures//solution_n=8_m=100.jpg>
 Package pdftex.def Info: ../Figures//solution_n=8_m=100.jpg  used on input line
- 187.
+ 190.
 (pdftex.def)             Requested size: 172.79846pt x 129.59976pt.
 <../Figures//solution_n=8_m=1000.jpg, id=94, 562.1pt x 421.575pt>
 File: ../Figures//solution_n=8_m=1000.jpg Graphic file (type jpg)
 <use ../Figures//solution_n=8_m=1000.jpg>
 Package pdftex.def Info: ../Figures//solution_n=8_m=1000.jpg  used on input lin
-e 188.
+e 191.
 (pdftex.def)             Requested size: 172.79846pt x 129.59976pt.
 <../Figures//solution_n=8_m=10000.jpg, id=95, 562.1pt x 421.575pt>
 File: ../Figures//solution_n=8_m=10000.jpg Graphic file (type jpg)
 <use ../Figures//solution_n=8_m=10000.jpg>
 Package pdftex.def Info: ../Figures//solution_n=8_m=10000.jpg  used on input li
-ne 189.
+ne 192.
 (pdftex.def)             Requested size: 172.79846pt x 129.59976pt.
  [5 <../Figures//EL5.jpg> <../Figures//EL15.jpg> <../Figures//EL20.jpg>]
 <../Figures//solution_Dec11_9hrs_isoview.pdf, id=105, 614.295pt x 794.97pt>
 File: ../Figures//solution_Dec11_9hrs_isoview.pdf Graphic file (type pdf)
 <use ../Figures//solution_Dec11_9hrs_isoview.pdf>
 Package pdftex.def Info: ../Figures//solution_Dec11_9hrs_isoview.pdf  used on i
-nput line 197.
+nput line 200.
 (pdftex.def)             Requested size: 172.79846pt x 223.62115pt.
 <../Figures//solution_Dec11_9hrs_sideview.pdf, id=106, 614.295pt x 794.97pt>
 File: ../Figures//solution_Dec11_9hrs_sideview.pdf Graphic file (type pdf)
 <use ../Figures//solution_Dec11_9hrs_sideview.pdf>
 Package pdftex.def Info: ../Figures//solution_Dec11_9hrs_sideview.pdf  used on 
-input line 198.
+input line 201.
 (pdftex.def)             Requested size: 172.79846pt x 223.62115pt.
 <../Figures//EP5.jpg, id=107, 562.1pt x 421.575pt>
 File: ../Figures//EP5.jpg Graphic file (type jpg)
 <use ../Figures//EP5.jpg>
-Package pdftex.def Info: ../Figures//EP5.jpg  used on input line 205.
+Package pdftex.def Info: ../Figures//EP5.jpg  used on input line 208.
 (pdftex.def)             Requested size: 172.79846pt x 129.59976pt.
 <../Figures//EP15.jpg, id=108, 572.1375pt x 414.54875pt>
 File: ../Figures//EP15.jpg Graphic file (type jpg)
 <use ../Figures//EP15.jpg>
-Package pdftex.def Info: ../Figures//EP15.jpg  used on input line 206.
+Package pdftex.def Info: ../Figures//EP15.jpg  used on input line 209.
 (pdftex.def)             Requested size: 172.79846pt x 125.20055pt.
 <../Figures//EP20.jpg, id=109, 562.1pt x 421.575pt>
 File: ../Figures//EP20.jpg Graphic file (type jpg)
 <use ../Figures//EP20.jpg>
-Package pdftex.def Info: ../Figures//EP20.jpg  used on input line 207.
+Package pdftex.def Info: ../Figures//EP20.jpg  used on input line 210.
 (pdftex.def)             Requested size: 172.79846pt x 129.59976pt.
  [6 <../Figures//solution_n=8_m=100.jpg> <../Figures//solution_n=8_m=1000.jpg> 
 <../Figures//solution_n=8_m=10000.jpg> <../Figures//solution_Dec11_9hrs_isoview
@@ -534,13 +666,13 @@ Package pdftex.def Info: ../Figures//EP20.jpg  used on input line 207.
 File: ../Figures//error_plot_m=100.jpg Graphic file (type jpg)
 <use ../Figures//error_plot_m=100.jpg>
 Package pdftex.def Info: ../Figures//error_plot_m=100.jpg  used on input line 2
-15.
+18.
 (pdftex.def)             Requested size: 172.79846pt x 129.59976pt.
 <../Figures//error_plot_m=1000.jpg, id=130, 572.1375pt x 414.54875pt>
 File: ../Figures//error_plot_m=1000.jpg Graphic file (type jpg)
 <use ../Figures//error_plot_m=1000.jpg>
 Package pdftex.def Info: ../Figures//error_plot_m=1000.jpg  used on input line 
-216.
+219.
 (pdftex.def)             Requested size: 176.40198pt x 127.81297pt.
  [7 <../Figures//EP5.jpg> <../Figures//EP15.jpg> <../Figures//EP20.jpg> <../Fig
 ures//error_plot_m=100.jpg> <../Figures//error_plot_m=1000.jpg>] (./final_repor
@@ -549,13 +681,13 @@ Package rerunfilecheck Info: File `final_report.out' has not changed.
 (rerunfilecheck)             Checksum: 4E0FD0A2F517F89A028A0797423B4B0B;1855.
  ) 
 Here is how much of TeX's memory you used:
- 11343 strings out of 478287
- 176972 string characters out of 5849289
- 473525 words of memory out of 5000000
- 29184 multiletter control sequences out of 15000+600000
+ 14761 strings out of 478287
+ 246948 string characters out of 5849289
+ 590371 words of memory out of 5000000
+ 32543 multiletter control sequences out of 15000+600000
  475488 words of font info for 53 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 69i,19n,76p,519b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,19n,76p,519b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
@@ -569,7 +701,7 @@ cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on final_report.pdf (8 pages, 1601769 bytes).
+Output written on final_report.pdf (8 pages, 1602075 bytes).
 PDF statistics:
  212 PDF objects out of 1000 (max. 8388607)
  152 compressed objects within 2 object streams

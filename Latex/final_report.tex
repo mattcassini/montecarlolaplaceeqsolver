@@ -1,6 +1,6 @@
 \documentclass{amsart}
 
-\usepackage{amsmath,amssymb,graphicx,mathtools,pdfsync,algorithm,algpseudocode,float,hyperref}
+\usepackage{amsmath,amssymb,graphicx,mathtools,pdfsync,algorithm,algpseudocode,float,hyperref,minted}
 
 \graphicspath{ {../Figures/} }
 \begin{document}
@@ -125,6 +125,9 @@ This was incredibly slow so we parallelized the algorithm and have Algorithm \re
 \end{algorithm}
 
 This algorithm has improved efficiency as it can take advantage of parallel computing while immediately deleting all "completed" walkers from the arrays so that it doesn't waste time.
+
+Our Matlab code is submitted as a separate document to avoid cluttering the report.
+
 \section{Analytical Solution}
 
 If possible, before using a numerical solution to your problem it is best to have an idea of what your solution is supposed to look like. To reiterate the problem

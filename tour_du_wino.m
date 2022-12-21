@@ -50,12 +50,4 @@ R_avg = reward/m;
 u(2:n-1,2:n-1) = R_avg(2:n-1,2:n-1);
 %mesh(u)
 
-%equipotent lines
-% eps = 10^-1;
-% ii = 2:n-1;
-% jj = ii;
-% ux = (u(ii+1,jj) - u(ii,jj)) / h;
-% uy = (u(ii,jj+1) - u(ii,jj)) / h;
-% equipotent_lines = u(ii,jj).*(ux<=eps & ux>=-eps & uy<=eps & uy>=-eps);
-
 end
